@@ -1,0 +1,34 @@
+# Ignore .env files to protect sensitive information
+.env
+
+# Ignore node_modules
+node_modules/
+
+# Ignore logs
+logs/
+
+# Ignore the default IDE and OS-specific files
+.idea/
+.DS_Store
+
+# Ignore npm logs
+npm-debug.log
+yarn-error.log
+
+# Ignore the build directory if using a build system
+build/
+
+# Ignore coverage files from testing frameworks (if applicable)
+coverage/
+
+# Ignore any compiled files (e.g., from TypeScript or Babel)
+*.js.map
+
+# Ignore any temporary files
+*.swp
+*.bak
+*.tmp
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
